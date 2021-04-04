@@ -13,5 +13,13 @@ class Canvas{
 	public function setCurrentTool( $currentTool ){
 		$this->currentTool = $currentTool;
 	}
+
+	public function mouseDown(){
+		return $this->currentTool->mouseDown();
+	}
+
+	public function mouseUp(){
+		return $this->currentTool->mouseUp();
+	}
 	
 }
