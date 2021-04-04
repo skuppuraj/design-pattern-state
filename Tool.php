@@ -3,8 +3,7 @@
 /**
  * Tool is a interface class
  */
-interface Tool
-{
+interface Tool{
 	public function mouseDown();
 	public function mouseUp();
 }

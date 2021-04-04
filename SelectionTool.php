@@ -3,8 +3,7 @@
 /**
  * SelectionTool implements Tools Class
  */
-class SelectionTool extends Tool
-{
+class SelectionTool extends Tool{
 	public function mouseDown(){
 		echo "Selection icon";
 	}
