@@ -4,9 +4,8 @@
  * * BrushTool implements Tools Class
  */
 
-require 'Tool.php';
 
-class BrushTool extends Tool{
+class BrushTool implements Tool{
 	public function mouseDown(){
 		echo "Brush icon";
 	}
