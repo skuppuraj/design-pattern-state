@@ -3,6 +3,9 @@
 /**
  * SelectionTool implements Tools Class
  */
+
+require 'Tool.php';
+
 class SelectionTool extends Tool{
 	public function mouseDown(){
 		echo "Selection icon";
